@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    background: black;
+}
+.parent{
+   border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background:white;
+}
+
+.one{
+ margin: 20px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+p{
+    padding: 8px;
+    font-family: tahoma;
+    font-size: 30px;
+   
+}
+.soc{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
