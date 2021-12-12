@@ -95,6 +95,56 @@ p{
     }
 
 }
+@media screen and (max-width:640px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: 0;
+    }
+    body{
+        background: black;
+    }
+    .parent{
+       border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+        background:white;
+    }
+    
+    .one{
+     margin: 10px;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    p{
+        padding: 6px;
+        font-family: tahoma;
+        font-size: 20px;
+       
+    }
+    .soc{
+        margin: 8px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+    .two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
 
 
 
