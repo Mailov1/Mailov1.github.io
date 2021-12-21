@@ -43,8 +43,6 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
-  -webkit-animation: bounceInUp 2.5s inherit;
-          animation: bounceInUp 2.5s inherit;
 }
 
 a:hover {
@@ -95,8 +93,8 @@ a {
 }
 
 img:hover {
-  -webkit-animation: heartBeat 5s;
-          animation: heartBeat 5s;
+  -webkit-animation: flip 2s;
+          animation: flip 2s;
 }
 
 @media screen and (max-width: 1024px) {

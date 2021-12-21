@@ -28,7 +28,7 @@ body{
     width: 200px;
     object-fit: cover;
     border-radius: 50%;
-    animation: bounceInUp 2.5s inherit;
+
 }
 a:hover{
     animation:shakeY 5s ;
@@ -59,7 +59,7 @@ a{
     animation:rotateIn 3.5s ;
 }
 img:hover{
-    animation:heartBeat 5s ;
+    animation: flip 2s ;
 }
 
 @media screen and (max-width:1024px){
